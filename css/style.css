@@ -76,6 +76,7 @@ body{
     border-color: #002e5f;
     font-size: 1.5rem;
     cursor: pointer;
+    margin-top: 3rem;
     height: 3.5rem;
     width: 15rem;
     box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
@@ -110,8 +111,9 @@ body{
 }
 
 .header .logo img{
-    width: 130%;
-    height: 6rem;
+    width: 100%;
+    height: 8rem;
+    margin-left: 4rem;
     top: 0;
     left: 0;
     /* title: '深圳飞拓星驰科技有限公司'; */
@@ -152,8 +154,8 @@ body{
 .home{
     min-height: 100vh;
     width: 100vw;
-    background-image: url(../images/img1.jpg);
-    background-size: cover;
+    background-image: url(../images/img7.jpg);
+    background-size: 100% auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,7 +168,7 @@ body{
 
 .home h1{
     color: #fff;
-    font-size: 5.5rem;
+    font-size: 4rem;
 }
 
 .home h2{
@@ -461,7 +463,7 @@ body{
 .communicate{
     text-align: center;
     align-items: center;
-    background-image: url(../images/img3.jpg);
+    background-image: url(../images/img8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -476,6 +478,7 @@ body{
 }
 
 .communicate p{
+    margin-top: 3rem;
     font-size: 2rem;
 }
 
@@ -716,6 +719,27 @@ body{
     left: -4rem;
 }
 
+.team .introduct{
+    margin-top: 8rem;
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 24rem;
+}
+.team .introduct h3{
+    margin-top: 2rem;
+    font-size: 30px;
+    text-align: center;
+    color: #ccc;
+}
+.team .introduct p{
+    margin-top: 2rem;
+    font-size: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
 .contact{
     text-align: center;
     align-items: center;
@@ -723,6 +747,26 @@ body{
 
 .contact .heading{
     margin-bottom: 5rem;
+}
+
+.contact .image{
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contact h2{
+    margin-top: 2rem;
+    font-size: 30px;
+    text-align: center;
+    color:#333;
+}
+
+.contact p{
+    margin-top: 2rem;
+    font-size: 18px;
+    text-align: center;
+    color:#333;
 }
 
 .contact-in

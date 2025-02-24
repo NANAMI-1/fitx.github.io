@@ -602,15 +602,16 @@ body{
     min-width: 100vw;
     min-height: 95vh;
     text-align: center;
-    background-color: #222;
+    /* background-color: #f2f2f2; */
+    background-color: #fff;
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #002e5f;
 }
 
 .team .heading::before, .team .heading::after{
-    border-color: #00bfff;
+    border-color: #002e5f;
 }
 
 .team .row{
@@ -731,18 +732,19 @@ body{
     margin-top: 2rem;
     font-size: 30px;
     text-align: center;
-    color: #ccc;
+    color: black;
 }
 .team .introduct p{
     margin-top: 2rem;
     font-size: 20px;
     text-align: center;
-    color: #ccc;
+    color: #333;
 }
 
 .contact{
     text-align: center;
     align-items: center;
+    background-color: #f2f2f2;
 }
 
 .contact .heading{
@@ -767,6 +769,7 @@ body{
     font-size: 18px;
     text-align: center;
     color:#333;
+    text-transform: none;
 }
 
 .contact-in
@@ -983,6 +986,7 @@ body{
         .footer .footer-top .footer-contact p {
             color: #ffffff;
             line-height: 26px;
+            text-transform: none;
         }
         
         .footer .footer-top .footer-newsletter input[type="email"] {
